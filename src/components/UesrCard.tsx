@@ -1,4 +1,8 @@
-export const UserCard = () => {
+import { VFC } from "react";
+
+type Props = {};
+
+export const UserCard: VFC<Props> = () => {
   return (
     <div>
       <dl>
