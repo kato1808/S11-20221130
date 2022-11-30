@@ -7,7 +7,6 @@ import { UserProfile } from "./types/UserProfile";
 
 export default function App() {
   const [userProfiles, setUserProfiles] = useState<Array<UserProfile>>([]);
-
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
